@@ -1,0 +1,18 @@
+编程环境: vs2005 vc++
+
+界面使用： 点open菜单，打开3ds文件，即显示。自带两个例子:jeep.3ds, 灯笼.3ds
+
+lib3ds库：用来读取3ds文件。
+
+数据结构：
+
+CPoint3D: 3维点类
+CPolygon: 多边形类
+CEdge:    边类
+CActiveEdge: 活化边类
+
+CScanLineZbufferProcess:  扫描线ZBuffer算法实现类，包括3ds文件加载，旋转，扫描过程，显示等。
+
+
+
+
