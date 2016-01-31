@@ -1,0 +1,57 @@
+﻿生成启动时间为 2016/1/31 13:43:30。
+     1>项目“C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\ScanLineZBuffer\ScanLineZBuffer.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../lib3ds /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ScanLineZBuffer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../lib3ds /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ScanLineZBuffer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ActiveEdge.cpp Edge.cpp EdgeList.cpp MainFrm.cpp Point3D.cpp Polygon.cpp PolygonList.cpp ScanLineZBuffer.cpp ScanLineZBufferDoc.cpp ScanLineZbufferProcess.cpp ScanLineZBufferView.cpp
+         ActiveEdge.cpp
+         Edge.cpp
+     1>Edge.cpp(50): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Edge.cpp(54): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Edge.cpp(68): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         EdgeList.cpp
+         MainFrm.cpp
+         Point3D.cpp
+     1>Point3D.cpp(29): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         Polygon.cpp
+     1>Polygon.cpp(93): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Polygon.cpp(96): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         PolygonList.cpp
+         ScanLineZBuffer.cpp
+         ScanLineZBufferDoc.cpp
+         ScanLineZbufferProcess.cpp
+     1>ScanLineZbufferProcess.cpp(441): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ScanLineZbufferProcess.cpp(538): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanLineZbufferProcess.cpp(539): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanLineZbufferProcess.cpp(540): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanLineZbufferProcess.cpp(549): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanLineZbufferProcess.cpp(550): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanLineZbufferProcess.cpp(551): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ScanLineZbufferProcess.cpp(563): warning C4101: “meshData”: 未引用的局部变量
+     1>ScanLineZbufferProcess.cpp(711): warning C4101: “meshData”: 未引用的局部变量
+         ScanLineZBufferView.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\ScanLineZBuffer.res" ScanLineZBuffer.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\ScanLineZBuffer.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\ScanLineZBuffer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\ScanLineZBuffer.lib" /MACHINE:X86 /SAFESEH Release\ScanLineZBuffer.res
+         Release\ActiveEdge.obj
+         Release\Edge.obj
+         Release\EdgeList.obj
+         Release\MainFrm.obj
+         Release\Point3D.obj
+         Release\Polygon.obj
+         Release\PolygonList.obj
+         Release\ScanLineZBuffer.obj
+         Release\ScanLineZBufferDoc.obj
+         Release\ScanLineZbufferProcess.obj
+         Release\ScanLineZBufferView.obj
+         Release\stdafx.obj
+         "C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds.lib"
+         正在生成代码
+         已完成代码的生成
+         ScanLineZBuffer.vcxproj -> C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\ScanLineZBuffer.exe
+     1>已完成生成项目“C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\ScanLineZBuffer\ScanLineZBuffer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.19

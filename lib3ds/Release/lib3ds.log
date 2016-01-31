@@ -1,0 +1,56 @@
+﻿生成启动时间为 2016/1/31 13:43:28。
+     1>项目“C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\lib3ds\lib3ds.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIB3DS_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:none lib3ds_atmosphere.c lib3ds_background.c lib3ds_camera.c lib3ds_chunk.c lib3ds_chunktable.c lib3ds_file.c lib3ds_io.c lib3ds_light.c lib3ds_material.c lib3ds_math.c lib3ds_matrix.c lib3ds_mesh.c lib3ds_node.c lib3ds_quat.c lib3ds_shadow.c lib3ds_track.c lib3ds_util.c lib3ds_vector.c lib3ds_viewport.c
+         lib3ds_atmosphere.c
+         lib3ds_background.c
+         lib3ds_camera.c
+         lib3ds_chunk.c
+         lib3ds_chunktable.c
+         lib3ds_file.c
+         lib3ds_io.c
+         lib3ds_light.c
+         lib3ds_material.c
+         lib3ds_math.c
+         lib3ds_matrix.c
+         lib3ds_mesh.c
+         lib3ds_node.c
+         lib3ds_quat.c
+         lib3ds_shadow.c
+         lib3ds_track.c
+         lib3ds_util.c
+         lib3ds_vector.c
+         lib3ds_viewport.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\lib3ds.res" lib3ds.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds.dll) does not match the Linker's OutputFile property value (C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds-2_0.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(lib3ds) does not match the Linker's OutputFile property value (lib3ds-2_0). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds-2_0.dll" /VERSION:"2.0" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds.lib" /MACHINE:X86 /SAFESEH /DLL Release\lib3ds.res
+         Release\lib3ds_atmosphere.obj
+         Release\lib3ds_background.obj
+         Release\lib3ds_camera.obj
+         Release\lib3ds_chunk.obj
+         Release\lib3ds_chunktable.obj
+         Release\lib3ds_file.obj
+         Release\lib3ds_io.obj
+         Release\lib3ds_light.obj
+         Release\lib3ds_material.obj
+         Release\lib3ds_math.obj
+         Release\lib3ds_matrix.obj
+         Release\lib3ds_mesh.obj
+         Release\lib3ds_node.obj
+         Release\lib3ds_quat.obj
+         Release\lib3ds_shadow.obj
+         Release\lib3ds_track.obj
+         Release\lib3ds_util.obj
+         Release\lib3ds_vector.obj
+         Release\lib3ds_viewport.obj
+            正在创建库 C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds.lib 和对象 C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds.exp
+         lib3ds.vcxproj -> C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\Release\lib3ds.dll
+     1>已完成生成项目“C:\Users\zeus-zzp\Downloads\ScanLineZBuffer\lib3ds\lib3ds.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.57
