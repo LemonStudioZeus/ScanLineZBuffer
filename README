@@ -1,4 +1,6 @@
-编程环境: vs2005 vc++
+实现 ScanLineZBuffer 算法
+
+编程环境: vs2013 vc++
 
 界面使用： 点open菜单，打开3ds文件，即显示。自带两个例子:jeep.3ds, 灯笼.3ds
 
